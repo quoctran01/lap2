@@ -1,0 +1,84 @@
+#main {
+    margin: 0 12%;
+    background-color:rgb(235, 235, 235);
+    padding: 0 40px;
+    font-size: larger;
+    color: grey;
+    border-radius: 6px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+.nav-left h1 {
+    margin: 0;
+    color: rgb(60, 60, 200);
+}
+.nav-left h2 {
+    margin: 0;
+    color: gray;
+}
+
+.nav-right {
+    display: inline-block;
+    margin: auto;
+}
+.nav-right li {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+.nav-right li a {
+    text-decoration: none;
+    padding: 0 8px;
+    font-weight: 800;
+    color: gray;
+}
+.nav-right li a:hover {
+    color: rgb(60, 60, 200);
+}
+
+#content {
+    display: flex;
+}
+
+.content-left {
+    margin: 20px 0;
+    padding-right: 10px;
+    border-right: solid 1px rgb(200, 200, 200);
+}
+.content-left button {
+    margin-left: 24px;
+    background-color: rgb(60, 160, 230);
+    color: white;
+    border: none;
+    height: 26px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.content-left button:hover {
+    background-color: rgb(60, 60, 200);
+
+}
+
+.content-right {
+    margin-left: 50px;
+    width: 700px;
+}
+
+.info {
+    display: flex;
+}
+.info-img {
+    padding-right: 20px;
+}
+.info-sub {
+    list-style-type: disclosure-closed;
+}
+.info-sub li{
+    padding-bottom: 20px;
+}

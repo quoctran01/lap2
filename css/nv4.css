@@ -1,0 +1,46 @@
+#main {
+    margin: 0 20%;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(200, 200, 200);
+}
+.avt {
+    margin: 40px;
+}
+.header-sub {
+    margin: 40px;
+}
+
+#content {
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+}
+.content ul{
+    padding-inline-start: 20px;
+}
+.content-left {
+    width: 60%;
+}
+.content-left h2 i{
+    margin-right: 10px;
+}
+.content-right {
+    width: 30%;
+}
+.content-right h2 i{
+    margin-right: 10px;
+}
+.content-title{
+    color: rgb(13,152,199);
+}
+.contact ul{
+    list-style-type: none;
+    padding: 0 0 0 4px;
+}
+.contact ul li i{
+    padding-right: 12px;
+}
